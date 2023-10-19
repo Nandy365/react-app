@@ -1,12 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import ExpenseItem from "./components/ExpenseItem";
 function App() {
-  return (
+  return ( 
     <div>
-      this is your Nandy
-    </div>
+      <ExpenseItem></ExpenseItem>
+    </div> 
   );
 }
-
 export default App;
