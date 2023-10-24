@@ -1,7 +1,7 @@
 //import Card from "./components/Card";
 import Expenses from "./components/Expenses/Expenses";
 const App = () => {
-  const expenses = [
+  const expenses  = [
     {
       model:"countach",
       price:56457,
