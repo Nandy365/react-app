@@ -1,11 +1,14 @@
 import './ExpenseForm.css'
 const ExpenseForm = () => {
+    const Modelchangehandler = (event) => {
+        console.log(event.target.value)
+    }
     return(
         <form>
   <div className='new-expense__controls'>
 <div className='new-expense__control'>
   <lable>Model</lable>
-    <input type='text'/>
+    <input type='text' onChange={Modelchangehandler}/>
     </div>
     <div className='new-expense__control'>
   <lable>Price</lable>
